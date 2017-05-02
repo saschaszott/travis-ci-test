@@ -21,6 +21,11 @@
     "mayflower/php-codebrowser": "~1.1",
     "squizlabs/php_codesniffer": "2.*"
   },
+  "autoload": {
+    "psr-0": {
+      "Opus_": "src/"
+    }
+  },  
   "minimum-stability": "dev",
   "prefer-stable": true,
   "config": {
