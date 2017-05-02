@@ -20,25 +20,15 @@
 
     <testsuites>
         <testsuite name="AllTests">
-        <directory>test</directory>
+        <directory>./test/</directory>
         </testsuite>
     </testsuites>
-
+     
     <filter>
-        <blacklist>
-            <directory suffix=".php"></directory>
-            <file></file>
+        <whitelist>
+            <directory>./</directory>
             <exclude>
-                <directory suffix=".php"></directory>
-                <file></file>
-            </exclude>
-        </blacklist>
-        <whitelist processUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php"></directory>
-            <file></file>
-            <exclude>
-                <directory suffix=".php"></directory>
-                <file></file>
+                <directory>./test</directory>
             </exclude>
         </whitelist>
     </filter>
