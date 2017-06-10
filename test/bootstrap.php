@@ -20,7 +20,7 @@ set_include_path(implode(PATH_SEPARATOR, array(
     get_include_path()
 )));
 
-require_once 'autoload.php';
+//require_once 'autoload.php';
 
 // enable fallback autoloader for testing
 $autoloader = Zend_Loader_Autoloader::getInstance();
