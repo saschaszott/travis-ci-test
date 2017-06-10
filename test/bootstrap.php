@@ -23,6 +23,6 @@ set_include_path(implode(PATH_SEPARATOR, array(
 //require_once 'autoload.php';
 
 // enable fallback autoloader for testing
-$autoloader = Zend_Loader_Autoloader::getInstance();
-$autoloader->suppressNotFoundWarnings(false);
-$autoloader->setFallbackAutoloader(true);
+//$autoloader = Zend_Loader_Autoloader::getInstance();
+//$autoloader->suppressNotFoundWarnings(false);
+//$autoloader->setFallbackAutoloader(true);
