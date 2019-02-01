@@ -1,5 +1,14 @@
 {
   "name": "saschaszott/travis-ci-test",
+  "require-dev": {
+	    "phpunit/phpunit": "5.7",
+	    "phpunit/php-invoker": "~1.1",
+	    "phploc/phploc": "*",
+	    "phpmd/phpmd" : "2.4.3",
+	    "sebastian/phpcpd": "*",
+	    "mayflower/php-codebrowser": "~1.1",
+	    "squizlabs/php_codesniffer": "2.*"
+	},   
   "minimum-stability": "dev",
   "prefer-stable": true
 }
